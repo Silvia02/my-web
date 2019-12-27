@@ -1,0 +1,77 @@
+/* BIG TABLETS TO 1200px (widths smaller  than the 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+.heroarara-text-box {
+width: 100%;
+padding: 0 2%;
+}
+.row {
+padding: 0 2%;
+}
+}
+/* SMALL TABLETS TO BIG TABLETS: FROM 768 TO 1023px */
+
+@media only screen and (max-width: 1023px) {
+body {
+font-size: 18px;
+}
+section {
+padding: 60px 0;
+}
+.long-copy {
+width: 80%;
+margin-left: 10%;
+}
+.contact-form {
+width: 80%;
+}
+}
+/* SMALL PHONES TO SMALL TABLETS: FROM 481px TO 767px */
+
+@media only screen and (max-width: 767px) {
+body {
+font-size: 16px;
+}
+section {
+padding: 30px 0;
+}
+.row,
+.heroarara-text-box {
+padding: 0 4%;
+}
+.main-nav {
+display: none;
+}
+.h1 {
+font-size: 100%;
+}
+.h2 {
+font-size: 150%;
+}
+.long-copy {
+width: 100%;
+margin-left: 0%;
+}
+.about-me img {
+height: 100px;
+border-radius: 50%;
+margin-left: 5px;
+vertical-align: middle;
+}
+}
+/* SMALL PHONES FROM 0 TO 480px */
+
+@media only screen and (max-width: 400px) {
+section {
+padding: 25px 0;
+}
+.contact-form {
+width: 100%;
+}
+.about-me img {
+height: 100px;
+border-radius: 50%;
+margin-left: 5%;
+vertical-align: middle;
+}
+}
